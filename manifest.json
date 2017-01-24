@@ -1,0 +1,17 @@
+{
+  "name": "GitHub Quickmenu",
+  "version": "1.2.2",
+  "description": "GitHub popup menu for quick Pull Requests.",
+  "options_page": "options.html",
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png" 
+  },
+  "browser_action" : {
+    "default_icon" : "icon19.png",
+    "default_title": "GitHub Quickmenu",
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2,
+  "permissions": [ "tabs", "storage", "*://*/*" ]
+}
